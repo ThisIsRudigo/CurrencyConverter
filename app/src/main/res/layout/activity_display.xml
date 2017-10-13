@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.loya.android.currencyconverter.DisplayActivity">
+
+    <TextView
+        android:id="@+id/ethtousd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ETH"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/ethtoeur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ETH"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/ethtongn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ETH"
+        android:textSize="23sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTC Conversion Rates gose here"
+        android:textSize="23sp" />
+    <TextView
+        android:id="@+id/btctousd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTC"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/btctoeur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTC"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/btctongn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTC"
+        android:textSize="23sp" />
+
+</LinearLayout>
